@@ -1,0 +1,258 @@
+{
+    "version": "1.0.0",
+    "rss": "",
+    "mainServer": "drafonn",
+    "servers": [
+        {
+            "id": "drafonn",
+            "name": "Drafonn Server",
+            "description": "Servidor oficial do DrafonnLauncher",
+            "icon": "",
+            "version": "1.21.1",
+            "address": "enx-cirion-90.enx.host:10048",
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "neoforge",
+                    "name": "NeoForge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.92/neoforge-21.1.92-installer.jar"
+                    }
+                },
+                {
+                    "id": "modpack-base",
+                    "name": "Modpack Base Files",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/Mods.zip",
+                        "size": 25691606,
+                        "MD5": "61AC36D5ECF4C1F7B37D22F4134D5403"
+                    },
+                    "path": "Mods.zip",
+                    "extract": true
+                },
+                {
+                    "id": "appleskin-neoforge-mc1.21-3.0.8",
+                    "name": "appleskin-neoforge-mc1.21-3.0.8",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/appleskin-neoforge-mc1.21-3.0.8.jar",
+                        "MD5": "9DA2C7B1D00041794CCE7F41A12F0935",
+                        "size": 75595
+                    },
+                    "path": "mods/appleskin-neoforge-mc1.21-3.0.8.jar"
+                },
+                {
+                    "id": "balm-neoforge-1.21.1-21.0.56",
+                    "name": "balm-neoforge-1.21.1-21.0.56",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/balm-neoforge-1.21.1-21.0.56.jar",
+                        "MD5": "7AB16721C9A8BB96666233D8EF46B47D",
+                        "size": 739709
+                    },
+                    "path": "mods/balm-neoforge-1.21.1-21.0.56.jar"
+                },
+                {
+                    "id": "create-1.21.1-6.0.9",
+                    "name": "create-1.21.1-6.0.9",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/create-1.21.1-6.0.9.jar",
+                        "MD5": "EC29A125A0298EB44F75847E8F59C7F4",
+                        "size": 19019888
+                    },
+                    "path": "mods/create-1.21.1-6.0.9.jar"
+                },
+                {
+                    "id": "ferritecore-7.0.3-neoforge",
+                    "name": "ferritecore-7.0.3-neoforge",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/ferritecore-7.0.3-neoforge.jar",
+                        "MD5": "E0374DAC41D6C641903F9E241911E1D3",
+                        "size": 121559
+                    },
+                    "path": "mods/ferritecore-7.0.3-neoforge.jar"
+                },
+                {
+                    "id": "ImmediatelyFast-NeoForge-1.6.10+1.21.1",
+                    "name": "ImmediatelyFast-NeoForge-1.6.10+1.21.1",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
+                        "MD5": "567BB6D9155070AD858740AF12450C63",
+                        "size": 368598
+                    },
+                    "path": "mods/ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar"
+                },
+                {
+                    "id": "iris-neoforge-1.8.12+mc1.21.1",
+                    "name": "iris-neoforge-1.8.12+mc1.21.1",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/iris-neoforge-1.8.12+mc1.21.1.jar",
+                        "MD5": "6C1122AA7C2B1A4F24831E394C5B513F",
+                        "size": 2438548
+                    },
+                    "path": "mods/iris-neoforge-1.8.12+mc1.21.1.jar"
+                },
+                {
+                    "id": "jei-1.21.1-neoforge-19.27.0.336",
+                    "name": "jei-1.21.1-neoforge-19.27.0.336",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/jei-1.21.1-neoforge-19.27.0.336.jar",
+                        "MD5": "D3DA422D1A44E31AF8A8D036B3D338F7",
+                        "size": 1529192
+                    },
+                    "path": "mods/jei-1.21.1-neoforge-19.27.0.336.jar"
+                },
+                {
+                    "id": "MouseTweaks-neoforge-mc1.21-2.26.1",
+                    "name": "MouseTweaks-neoforge-mc1.21-2.26.1",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+                        "MD5": "4AB6E808A59FDEBECFBC92438B85B470",
+                        "size": 73938
+                    },
+                    "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+                },
+                {
+                    "id": "reeses-sodium-options-neoforge-1.8.3+mc1.21.4",
+                    "name": "reeses-sodium-options-neoforge-1.8.3+mc1.21.4",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar",
+                        "MD5": "F3A0D7F31993D6F34E90F816F82CBCAF",
+                        "size": 78451
+                    },
+                    "path": "mods/reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar"
+                },
+                {
+                    "id": "sodium-neoforge-0.6.13+mc1.21.1",
+                    "name": "sodium-neoforge-0.6.13+mc1.21.1",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/sodium-neoforge-0.6.13+mc1.21.1.jar",
+                        "MD5": "E5018C782D851FEA76BE0205B7616E5D",
+                        "size": 1162994
+                    },
+                    "path": "mods/sodium-neoforge-0.6.13+mc1.21.1.jar"
+                },
+                {
+                    "id": "sophisticatedbackpacks-1.21.1-3.25.32.1568",
+                    "name": "sophisticatedbackpacks-1.21.1-3.25.32.1568",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/sophisticatedbackpacks-1.21.1-3.25.32.1568.jar",
+                        "MD5": "85FA8C9E12D381C72DE24066EE6CB9B1",
+                        "size": 993339
+                    },
+                    "path": "mods/sophisticatedbackpacks-1.21.1-3.25.32.1568.jar"
+                },
+                {
+                    "id": "sophisticatedcore-1.21.1-1.4.9.1526",
+                    "name": "sophisticatedcore-1.21.1-1.4.9.1526",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/sophisticatedcore-1.21.1-1.4.9.1526.jar",
+                        "MD5": "58430546E543A055E74FF5B400F54CCD",
+                        "size": 1463112
+                    },
+                    "path": "mods/sophisticatedcore-1.21.1-1.4.9.1526.jar"
+                },
+                {
+                    "id": "waystones-neoforge-1.21.1-21.1.29",
+                    "name": "waystones-neoforge-1.21.1-21.1.29",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/mods/waystones-neoforge-1.21.1-21.1.29.jar",
+                        "MD5": "E4E04B5F999DC1D46501C208AF588C29",
+                        "size": 876329
+                    },
+                    "path": "mods/waystones-neoforge-1.21.1-21.1.29.jar"
+                },
+                {
+                    "id": "FA+All_Extensions-v1.8",
+                    "name": "FA+All_Extensions-v1.8",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/resourcepacks/FA+All_Extensions-v1.8.zip",
+                        "MD5": "C71241BDB1EE91AB1C3C5FDE1A538899",
+                        "size": 423589
+                    },
+                    "path": "resourcepacks/FA+All_Extensions-v1.8.zip"
+                },
+                {
+                    "id": "FreshAnimations_v1.10.4",
+                    "name": "FreshAnimations_v1.10.4",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/resourcepacks/FreshAnimations_v1.10.4.zip",
+                        "MD5": "AB0E8CC3444E98F0FD51AC0D84533D52",
+                        "size": 850941
+                    },
+                    "path": "resourcepacks/FreshAnimations_v1.10.4.zip"
+                },
+                {
+                    "id": "waystones_1.21.1",
+                    "name": "waystones_1.21.1",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/resourcepacks/waystones_1.21.1.zip",
+                        "MD5": "FAE3B022DAF824010496212452FCF4D1",
+                        "size": 228331
+                    },
+                    "path": "resourcepacks/waystones_1.21.1.zip"
+                },
+                {
+                    "id": "Xray_Ultimate_1.21_v5.2.2",
+                    "name": "Xray_Ultimate_1.21_v5.2.2",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/resourcepacks/Xray_Ultimate_1.21_v5.2.2.zip",
+                        "MD5": "16072937524AEAA189ECE4A6A04DDA9C",
+                        "size": 1260184
+                    },
+                    "path": "resourcepacks/Xray_Ultimate_1.21_v5.2.2.zip"
+                },
+                {
+                    "id": "Bliss_v2.1.2_(Chocapic13_Shaders_edit)",
+                    "name": "Bliss_v2.1.2_(Chocapic13_Shaders_edit)",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+                        "MD5": "73EAC5D017A268EA8175C2025C2863AD",
+                        "size": 1791406
+                    },
+                    "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
+                },
+                {
+                    "id": "ComplementaryUnbound_r5.7.1",
+                    "name": "ComplementaryUnbound_r5.7.1",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+                        "MD5": "B535D194C7115B360860E226C65AE3F2",
+                        "size": 522973
+                    },
+                    "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip"
+                },
+                {
+                    "id": "Mellow Shader v3.0.3",
+                    "name": "Mellow Shader v3.0.3",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/Drafonn-sLauncher/main/Arquivos%20do%20launcher/shaderpacks/Mellow Shader v3.0.3.zip",
+                        "MD5": "D3F7A6409BCD578C171EE9F67C8D3CCA",
+                        "size": 2104729
+                    },
+                    "path": "shaderpacks/Mellow Shader v3.0.3.zip"
+                }
+            ]
+        }
+    ]
+}
