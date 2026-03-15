@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "rss": "",
     "mainServer": "drafonn",
-    "minecraftVersion": "1.21.1",
+    "MCVersion": "1.21.1",
     "servers": [
         {
             "id": "drafonn",
