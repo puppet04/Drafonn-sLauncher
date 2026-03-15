@@ -1,17 +1,18 @@
 {
-    "version": "1.0.0",
+   "version": "1.0.0",
     "rss": "",
     "mainServer": "drafonn",
-    "MCVersion": "1.21.1",
     "servers": [
         {
             "id": "drafonn",
             "name": "Drafonn Server",
             "description": "Servidor oficial do DrafonnLauncher",
             "icon": "",
-            "version": "1.21.1",
+            "version": "1.0.0",
             "address": "enx-cirion-90.enx.host:10048",
-            "autoconnect": true,
+            "minecraftVersion": "1.21.1",
+            "mainServer": true,
+            "autoconnect": true,    
             "modules": [
                 {
                     "id": "neoforge",
