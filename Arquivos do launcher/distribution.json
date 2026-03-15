@@ -20,8 +20,8 @@
                     "type": "ForgeHosted",
                     "artifact": {
                         "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.92/neoforge-21.1.92-installer.jar",
-                        "version": "21.1.92",
-                        "MCVersion": "1.21.1"
+                        "size": 6819479,
+                        "MD5": "E1CE0AB25B26E7ED1CC366FFE995B8FD"
                     }
                 },
                 {
