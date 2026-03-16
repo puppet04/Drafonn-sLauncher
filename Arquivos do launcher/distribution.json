@@ -1,5 +1,5 @@
 {
-   "version": "1.0.0",
+    "version": "1.0.0",
     "rss": "",
     "mainServer": "drafonn",
     "servers": [
@@ -12,14 +12,16 @@
             "address": "enx-cirion-90.enx.host:10048",
             "minecraftVersion": "1.21.1",
             "mainServer": true,
-            "autoconnect": true,    
+            "autoconnect": true,
             "modules": [
                 {
                     "id": "neoforge",
                     "name": "NeoForge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.92/neoforge-21.1.92-installer.jar",
+                        "group": "net.neoforged",
+                        "artifact": "neoforge",
+                        "version": "21.1.92",
                         "size": 6819479,
                         "MD5": "E1CE0AB25B26E7ED1CC366FFE995B8FD"
                     }
