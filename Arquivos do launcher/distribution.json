@@ -19,13 +19,11 @@
                     "name": "NeoForge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "id": "net.neoforged:neoforge:21.1.92",
-                        "group": "net.neoforged",
-                        "artifact": "neoforge",
-                        "version": "21.1.92",
-                        "size": 6819479,
-                        "MD5": "E1CE0AB25B26E7ED1CC366FFE995B8FD"
-                    }
+                      "id": "net.neoforged:neoforge:21.1.92",
+                      "size": 0,
+                      "MD5": ""
+                    },
+                    "subModules": []
                 },
                 {
                     "id": "modpack-base",
