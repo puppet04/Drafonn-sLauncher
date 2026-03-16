@@ -19,6 +19,7 @@
                     "name": "NeoForge",
                     "type": "ForgeHosted",
                     "artifact": {
+                        "id": "net.neoforged:neoforge:21.1.92",
                         "group": "net.neoforged",
                         "artifact": "neoforge",
                         "version": "21.1.92",
